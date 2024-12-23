@@ -1,0 +1,16 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid $twitter-gray;
+}
+
+.header__pp{
+    margin-left: 20px;
+}
+
+.header__stars{
+    margin-right: 20px;
+}

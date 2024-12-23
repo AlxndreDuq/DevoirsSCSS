@@ -1,0 +1,129 @@
+.tweet{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $twitter-gray;
+
+    &__friend-interaction{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 62px;
+        color: $twitter-gray-text;
+
+        span{
+            margin-left: 10px;
+        }
+    }
+
+    &__elements{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        &__pp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 20px;
+
+            svg{
+                min-height: fit-content;
+            }
+
+            &__bar{
+                height: 100%;
+                border: 1px solid $twitter-gray;
+            }
+            
+        }
+
+        &__content{
+            display: flex;
+            flex-direction: column;
+            margin-left: 8px;
+            width: 80%;
+
+            &__who{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                &__name{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: -0.3px;
+                    min-width: fit-content;
+                }
+
+                &__certification{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-left: 5px;
+                }
+                
+                &__id{
+                    margin-left: 5px;
+                    min-width: fit-content;
+                    color: $twitter-gray-text;
+                }
+
+                &__time-ago{
+                    margin-left: 5px;
+                    min-width: fit-content;
+                    color: $twitter-gray-text;
+                }
+
+                &__expand-container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: end;
+                    width: 100%;
+
+                    svg{
+                        margin-right: 30px;
+                    }
+
+                }
+
+                
+            }
+            &__interaction{
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                padding-top: 5px;
+                color: $twitter-gray-text;
+
+                div{
+                    width:25%;
+                    display: flex;
+                    align-items: center;
+
+                    span{
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            &__text{
+                width: 90%;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.3px;
+                color: $twitter-black-text
+            }
+
+            &__show-thread{
+                display: flex;
+                align-items: center;
+                height: 37px;
+            }
+
+        }
+    }
+}
+
+//sboisde@myges.fr
